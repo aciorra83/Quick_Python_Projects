@@ -13,3 +13,5 @@ soup = bs(r.content, 'html.parser')
 # specifying html tags for the program to search for
 profile_img = soup.find('img', {'alt' : 'Avatar'})['src']
 print(profile_img)
+
+# this is a test
